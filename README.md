@@ -16,5 +16,5 @@
 
 ## Usage
 
-- To generate a QR code, enter text in the input field and click "Generate QR Code".
-- To scan a QR code, click "Start Scan" and point your camera at the QR code.
+- To generate a QR code, navigate to `generate.html`, enter text in the input field, and click "Generate QR Code".
+- To scan a QR code, navigate to `scan.html`, click "Start Scan", and point your camera at the QR code.

@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code Generator and Scanner</title>
+    <title>Generate QR Code</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>QR Code Generator and Scanner</h1>
+    <h1>Generate QR Code</h1>
     <div>
-        <h2>Generate QR Code</h2>
         <input type="text" id="qr-input" placeholder="Enter text">
         <button onclick="generateQRCode()">Generate QR Code</button>
         <div id="qr-code"></div>
     </div>
-    <div>
-        <h2>Scan QR Code</h2>
-        <button onclick="startScan()">Start Scan</button>
-        <video id="qr-video" width="300" height="200" style="display:none;"></video>
-        <div id="qr-result"></div>
-    </div>
+    <a href="scan.html">Go to Scan QR Code</a>
     <script src="script.js"></script>
 </body>
 </html>
